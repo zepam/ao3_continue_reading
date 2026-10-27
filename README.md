@@ -36,6 +36,11 @@ A Firefox extension that automatically resumes from your last read chapter when 
 
 3. This creates a `.xpi` file. Open it with Firefox to install permanently.
 
+### Option 3: Use Greasemonkey
+
+1. Install the [Greasemonkey](https://www.greasespot.net/) browser extension for Firefox or [Tampermonkey](https://www.tampermonkey.net/) for other browsers.
+2. Copy the contents of continuereading_user_script into a New User Script.
+
 ## How It Works
 
 - Every time you read a chapter, the extension saves that chapter ID for that work
