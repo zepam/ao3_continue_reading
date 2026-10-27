@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AO3 Continue Reading",
+  "version": "1.0",
+  "description": "Automatically resume from your last read chapter when you load an AO3 work",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://archiveofourown.org/works/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "128": "icons/icon-128.png"
+  }
+}
