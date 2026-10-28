@@ -39,7 +39,7 @@ A Firefox extension that automatically resumes from your last read chapter when 
 ### Option 3: Use Greasemonkey
 
 1. Install the [Greasemonkey](https://www.greasespot.net/) browser extension for Firefox or [Tampermonkey](https://www.tampermonkey.net/) for other browsers.
-2. Copy the contents of continuereading_user_script into a New User Script.
+2. Copy the contents of `ao3continuereading_user_script.js` into a New User Script.
 
 ## How It Works
 
@@ -54,6 +54,7 @@ A Firefox extension that automatically resumes from your last read chapter when 
 ao3-continue-reading/
 ├── manifest.json       # Extension configuration
 ├── content.js          # Main script that runs on AO3
+├── ao3continuereading_user_script.js # user script for a web extension
 ├── icons/
 │   └── icon-128.png   # Extension icon
 └── README.md          # This file

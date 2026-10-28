@@ -12,6 +12,9 @@
     }
   ],
   "icons": {
-    "128": "icons/icon-128.png"
+    "16": "icons/continue16.jpg",
+    "32": "icons/continue32.jpg",
+    "64": "icons/continue64.jpg",
+    "128": "icons/continue128.jpg"
   }
 }
