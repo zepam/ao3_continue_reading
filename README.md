@@ -81,6 +81,6 @@ All data is stored locally in your Firefox profile. Nothing is sent to external 
 
 MIT
 
-## Contributing
+<!-- ## Contributing
 
-Found a bug or have a feature idea? Open an issue or submit a pull request!
+Found a bug or have a feature idea? Open an issue or submit a pull request! -->
